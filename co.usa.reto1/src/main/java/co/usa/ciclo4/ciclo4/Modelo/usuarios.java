@@ -31,10 +31,11 @@ public class usuarios {
     private Integer id;
     @Column(name="user_email",unique = true, length = 50, nullable = false)
     private String email;
-    @Column(name="user_name",length = 80, nullable = false)
-    private String name;
     @Column(name="password",length = 50, nullable = false)
     private String password;
+    @Column(name="user_name",length = 80, nullable = false)
+    private String name;
+    
     
     
     }
